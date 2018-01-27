@@ -14,13 +14,23 @@ package org.usfirst.frc.team7146.robot;
  * floating around.
  */
 public class RobotMap {
+	
+	//DifferentialDrive Motor Number
+	public static final int leftMtorNumber = 0;
+	public static final int rightMotorNumber = 1;
+	
+	//Teleop TankDrive Speed
+	public static final double TankDriveleftSpeed = 0.7;
+	public static final double TankDriverightSpeed = 0.7;
+	
+	
 	// For example to map the left and right motors, you could define the
 	// following variables to use with your drivetrain subsystem.
 	// public static int leftMotor = 1;
 	// public static int rightMotor = 2;
-
 	// If you are using multiple modules, make sure to define both the port
 	// number and the module. For example you with a rangefinder:
 	// public static int rangefinderPort = 1;
 	// public static int rangefinderModule = 1;
+
 }
